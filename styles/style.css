@@ -3,6 +3,20 @@
 	margin: 0;
 }
 
+body {
+	font-family: arial, sans-serif;
+}
+
+h2 {
+	line-height: 1.2;
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 14px;
+	color: #006621;
+}
+
 .site-top {
 	background-color: #fafafa;
 	width: 100%;
@@ -137,7 +151,6 @@ button.search-image {
 	display: inline-block;
 	padding: 25px 0 12px 0;
 	font-size: 13px;
-	font-family: arial, sans-serif;
 }
 
 .navlink-active {
@@ -201,4 +214,42 @@ a.nav-tools:active {
 	padding: 5px 13px 0 13px;
 	float: left;
 	display: block;
+}
+
+.results {
+	margin-left: 146px;
+	padding-left: 16px;
+	width: 634px;
+}
+
+.search-details {
+	line-height: 43px;
+	display: block;
+}
+
+.search-details p {
+	color: rgb(128, 128, 128);
+	font-size: 13px;
+}
+
+.search-results {
+	margin-top: 9px;
+}
+
+h2 a {
+	color: #1a0dab;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	text-decoration: underline;
+}
+
+h2 a:visited {
+	color: #609;
+}
+
+.link {
+	height: 18px;
+	line-height: 16px;
 }
