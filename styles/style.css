@@ -5,6 +5,7 @@
 
 body {
 	font-family: arial, sans-serif;
+	font-size: 13px;
 }
 
 h2 {
@@ -15,6 +16,17 @@ h2 {
 h3 {
 	font-size: 14px;
 	color: #006621;
+	display: inline;
+}
+
+em {
+	font-weight: bold;
+}
+
+.description {
+	line-height: 1.4;
+	word-wrap: break-word;
+	color: #545454;
 }
 
 .site-top {
@@ -120,7 +132,6 @@ button.search-image {
 	top: 7px;
 	border: 1px solid rgb(66, 133, 244);
     border-radius: 2px;
-    font-size: 13px;
     padding: 0 12px;
 	height: 30px;
 	line-height: 28px;
@@ -136,7 +147,6 @@ button.search-image {
 }
 
 .navbar {
-	width: 100%;
 	display: block;
 	padding-left: 146px;
 	border-bottom: 1px solid rgb(235, 235, 235);
@@ -150,7 +160,6 @@ button.search-image {
 .navlink {
 	display: inline-block;
 	padding: 25px 0 12px 0;
-	font-size: 13px;
 }
 
 .navlink-active {
@@ -219,7 +228,11 @@ a.nav-tools:active {
 .results {
 	margin-left: 146px;
 	padding-left: 16px;
-	width: 634px;
+	width: 600px;
+}
+
+.search-result {
+	margin-bottom: 26px;
 }
 
 .search-details {
@@ -229,7 +242,6 @@ a.nav-tools:active {
 
 .search-details p {
 	color: rgb(128, 128, 128);
-	font-size: 13px;
 }
 
 .search-results {
@@ -252,4 +264,24 @@ h2 a:visited {
 .link {
 	height: 18px;
 	line-height: 16px;
+}
+
+.date {
+	color: #808080;
+}
+
+.cache {
+	display: inline-block;
+}
+
+.triangle {
+	border-top-color: #006621;
+	border-bottom-color: #006621;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-width: 5px 4px 0 4px;
+	border-style: solid;
+	margin-left: 3px;
+	position: relative;
+	top: 10px;
 }
