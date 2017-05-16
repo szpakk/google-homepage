@@ -285,3 +285,110 @@ h2 a:visited {
 	position: relative;
 	top: 10px;
 }
+
+.search-related {
+	margin-top: 40px;
+	margin-bottom: 28px;
+	color: #222;
+}
+
+.related-header {
+	padding-bottom: 20px;
+}
+
+.related-col {
+	display: inline-block;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.related-link {
+	padding: 3px 32px 3px 0;
+	text-decoration: none;
+	color: #1a0dab;
+	display: block;
+}
+
+.related-link:hover {
+	text-decoration: underline;
+}
+
+.related-link:visited {
+	color: #609;
+}
+
+.google-nav {
+	position: relative;
+	left: -16px;
+	width: 632px;
+	height: 55px;
+}
+
+.nav-goog {
+	background: url(../images/nav.png) no-repeat;
+	width: 20px;
+	height: 40px;
+	display: block;
+}
+
+.nav-1st {
+	width: 28px;
+	background-position: -24px 0;
+}
+
+.nav-cur {
+	background-position: -53px 0;
+}
+
+.nav-mid {
+	background-position: -74px 0;
+
+}
+
+.nav-end {
+	background-position: -96px 0;
+	width: 71px;
+}
+
+.link-end {
+	margin-left: 53px;
+}
+
+table {
+	text-align: left;
+	border-collapse: collapse;
+	margin: 30px auto 30px;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+}
+
+tr {
+	vertical-align: top;
+}
+
+td {
+	vertical-align: top;
+	text-align: center;
+	padding: 0;
+	color: rgba(0,0,0,0.87);
+}
+
+td a {
+	display: block;
+	color: #4285f4;
+	text-decoration: none;
+}
+
+td a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+td a:visited {
+	color: #4285f4;
+	text-decoration: none;
+}
